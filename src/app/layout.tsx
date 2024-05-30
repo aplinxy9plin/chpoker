@@ -4,7 +4,7 @@ import "./globals.css";
 import { Suspense } from "react";
 import { Metrika } from "./components/Metrika";
 import Head from "next/head";
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -48,6 +48,7 @@ export default function RootLayout({
         <Suspense>
           <Metrika />
         </Suspense>
+        <Analytics />
       </body>
     </html>
   );

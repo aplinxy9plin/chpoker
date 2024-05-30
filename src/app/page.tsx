@@ -26,7 +26,7 @@ export default function Home() {
       </div><br />
 
       <div className="mb-32 grid gap-4 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">
+        <div className="rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">
           <h2 className="mb-3 text-2xl font-semibold">Решение 1</h2>
           Прокси от Яндекса:
           <br />
@@ -38,7 +38,7 @@ export default function Home() {
           $ docker pull cr.yandex/mirror/alpine
         </div>
 
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">          <h2 className="mb-3 text-2xl font-semibold">Решение 2</h2>
+        <div className="rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">          <h2 className="mb-3 text-2xl font-semibold">Решение 2</h2>
           Прокси от huecker.io:
           <br />
           <p className="flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
@@ -87,7 +87,7 @@ export default function Home() {
           </code>
         </div>
 
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">          <h2 className="mb-3 text-2xl font-semibold">Решение 3</h2>
+        <div className="rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30">          <h2 className="mb-3 text-2xl font-semibold">Решение 3</h2>
           Другие прокси:
           <br />
           <table className="table-auto">
